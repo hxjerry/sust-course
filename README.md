@@ -3,7 +3,7 @@ Autoscript for sustech course on tencent MOOC platform
 
 # usage
 1. Download this repo and install requests library in your python environment: pip install requests
-2. Login to **lexiangla.com** and use chrome extension **https://cookie-editor.com/** to dump the cookies of your session into a json file.
+2. Login to **lexiangla.com** and use chrome extension **https://cookie-editor.com/** to dump the cookies of your session into a json, paste its contents to a new text file cookies.json in this directory.
 3. Launch script.py
 4. Enjoy
 
