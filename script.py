@@ -51,7 +51,7 @@ while(len(urls)>0):
                 del urls[i]
                 i-=1
             else:
-                if(remain<R['data']['learn_time']*(100-R['data']['procedure'])/R['data']['procedure']):
+                if(R['data']['procedure']>0 and remain<R['data']['learn_time']*(100-R['data']['procedure'])/R['data']['procedure']):
                     remain=R['data']['learn_time']*(100-R['data']['procedure'])/R['data']['procedure'];
         else:
             exit(-1)
